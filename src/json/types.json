@@ -1,0 +1,19 @@
+[
+    {
+        "id":1,
+        "name":"إضافة وسوم Script",
+        "code":"<!-- ... HTML محتوى ... -->\n\n  <!-- React تحميل -->\n  <!-- \"development.js\" مكان \"production.min.js\" ملاحظة: عند النشر، بدل -->\n  <script src=\"https://unpkg.com/react@17/umd/react.development.js\" crossorigin></script>\n  <script src=\"https://unpkg.com/react-dom@17/umd/react-dom.development.js\" crossorigin></script>\n\n  <!-- الخاص بنا React تحميل مكون. -->\n  <script src=\"like_button.js\"></script>\n\n</body>"
+       
+    }, {
+        "id":2,
+        "name":"إنشاء تطبيق React جديد",
+        "code":"npx create-react-app ^\ncd ^\nnpm start"
+       
+    },
+    {
+        "id":3,
+        "name":"مثال «أهلًا بالعالم»",
+        "code":"ReactDOM.render(\n  <h1>أهلًا بالعالم!</h1>,\n  document.getElementById('root')\n);"
+       
+    }
+]
